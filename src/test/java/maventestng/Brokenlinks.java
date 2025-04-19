@@ -21,8 +21,8 @@ public class Brokenlinks {
 		
 		driver.manage().window().maximize();
 		
-		driver.get("https://sitebulb.com/hints/internal/broken-internal-urls/");
-		
+		//driver.get("https://sitebulb.com/hints/internal/broken-internal-urls/");
+		driver.get("https://www.google.com/");
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		
 		System.out.println("Total links are "+links.size());
