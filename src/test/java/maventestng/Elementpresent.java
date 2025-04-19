@@ -5,10 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class Elementpresent {
 
-	public static void main(String[] args) {
+	@Test
+	public void present() {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -28,6 +30,8 @@ public class Elementpresent {
 			System.out.println("button not present");
 		}
 		
+		System.out.println("elementpresent Passed");
+		driver.quit();
 		
 	}
 

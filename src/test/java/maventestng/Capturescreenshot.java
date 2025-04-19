@@ -32,8 +32,8 @@ public class Capturescreenshot {
 		FileUtils.copyFile(source, new File("C:\\Users\\pc\\Downloads\\screenshots\\test3.png"));
 		
 		System.out.println("Take screenshot");
-		
 		driver.quit();
+		
 	
 	}
 

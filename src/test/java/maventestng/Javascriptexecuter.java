@@ -34,7 +34,8 @@ public class Javascriptexecuter {
 		
 		WebElement select =  driver.findElement(By.xpath("(//input[@type='checkbox'])[8]"));
 		js.executeScript("arguments[0].click()", select);
-		driver.close();
-
+		System.out.println("Javascript Passed");
+		driver.quit();
+		
 }
 }

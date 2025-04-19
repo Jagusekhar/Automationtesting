@@ -28,7 +28,10 @@ public class Testcases {
 		loginwebsite.username();
 		loginwebsite.password();
 		loginwebsite.Login();
-	
+		
+		
+	System.out.println("Pom Passed");
+	driver.quit();
 	
 	}
 

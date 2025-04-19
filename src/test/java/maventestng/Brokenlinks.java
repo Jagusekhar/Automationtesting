@@ -8,10 +8,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 
 public class Brokenlinks {
 
-	public static void main(String[] args) 
+	
+	@Test
+	public void Broken()
 	{
 		WebDriver driver=new ChromeDriver();
 		
@@ -59,7 +63,13 @@ public class Brokenlinks {
         } catch (Exception e) {
            
         }
-    } 
+        
+        
+    }
+	
+	
+	
+	
 }
 	
 	 

@@ -6,10 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 public class Actionsandmethods {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public  void actions() throws InterruptedException {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -33,7 +35,9 @@ public class Actionsandmethods {
 		driver.findElement(By.id("input-password")).sendKeys("12345");
 		actions.sendKeys(Keys.ENTER).perform();
 
-
+		System.out.println("actions Passed");
+		driver.quit();
+		
 
 	}
 
