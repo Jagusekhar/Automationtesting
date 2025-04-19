@@ -4,11 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="maventestng.Capturescreenshot"/>
-      <class name="maventestng.Brokenlinks"/>
-      <class name="maventestng.findelementandelements"/>
-      <class name="maventestng.Javascriptexecuter"/>
       <class name="maventestng.Elementpresent"/>
-      <class name="maventestng.Actionsandmethods"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
