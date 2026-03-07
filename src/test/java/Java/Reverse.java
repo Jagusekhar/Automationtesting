@@ -6,7 +6,7 @@ public class Reverse {
 		// TODO Auto-generated method stub
 		
 		
-		String str = "Mahindra";
+		String str = "automation";
 		String	rstr = "";
 		
 		for (int i=0; i<str.length(); i++) { 
